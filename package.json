@@ -1,0 +1,29 @@
+{
+  "name": "userscript-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.15"
+  },
+  "userscriptConfig": {
+    "entry": "src/index.ts",
+    "outputFile": "dist/my-userscript.ts",
+    "params": {
+      "name": "UserScript Template",
+      "include": "*://*/*",
+      "grant": "none",
+      "version": "1.0",
+      "author": "Unknown",
+      "description": "A template for user scripts."
+    }
+  }
+}
