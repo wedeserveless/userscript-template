@@ -1,5 +1,5 @@
-# userscript template
-A template for creating userscripts with typescript and esbuild
+# Userscript template
+A template for creating userscripts with typescript and esbuild. I use [this safari userscript extension](https://apps.apple.com/us/app/userscripts/id1463298887?mt=12). [Learn what a userscript is.](https://en.wikipedia.org/wiki/Userscript)
 
 # Usage
 - Clone this repository
