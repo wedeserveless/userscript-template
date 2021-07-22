@@ -16,7 +16,7 @@
   },
   "userscriptConfig": {
     "entry": "src/index.ts",
-    "outputFile": "dist/my-userscript.ts",
+    "outputFile": "dist/my-userscript.js",
     "params": {
       "name": "UserScript Template",
       "include": "*://*/*",
